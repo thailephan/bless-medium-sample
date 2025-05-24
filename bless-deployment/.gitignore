@@ -6,5 +6,3 @@ build/
 tsbuildinfo
 *tsbuildinfo*
 bless-deploy.key
-
-public

@@ -1,7 +1,7 @@
 name = "template_name"
 version = "1.0.0"
 type = "text"
-production_host = "salmon-sparrow-korry-izpnnvqa.bls.dev"
+production_host = "blush-orca-kamillah-ngz2647y.bls.dev"
 
 [deployment]
 permission = "public"
@@ -20,9 +20,9 @@ command = "npm run build:release"
 [[deployments]]
 name = "blessnet"
 description = ""
-cid = "bafybeicoma5etz26auqofrrurbuhyuduor3rxjhntwh5fxoavrehiumk6m"
-created = "2025-05-24T08:49:23.993Z"
+cid = "bafybeib4ifzrcwrmeyif6uuhplypewkmqedoboapn6hewv3vfsw4yvd2qe"
+created = "2025-05-24T18:35:37.042Z"
 
   [deployments.runtime]
   url = "blessnet.tar.gz"
-  checksum = "ea157d7ed89e11fd28c4c6f77f1bb6619081579451891e7b4295db9193670694"
+  checksum = "79e84145cd920b4916389dfa8d10fca5f3fbbfc611c359d1b56db8d4f33b13bb"
