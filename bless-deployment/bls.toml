@@ -1,6 +1,7 @@
 name = "template_name"
 version = "1.0.0"
 type = "text"
+production_host = "salmon-sparrow-korry-izpnnvqa.bls.dev"
 
 [deployment]
 permission = "public"
@@ -15,3 +16,13 @@ command = "npm run build:debug"
 dir = "build"
 entry = "template_name.wasm"
 command = "npm run build:release"
+
+[[deployments]]
+name = "blessnet"
+description = ""
+cid = "bafybeicoma5etz26auqofrrurbuhyuduor3rxjhntwh5fxoavrehiumk6m"
+created = "2025-05-24T08:49:23.993Z"
+
+  [deployments.runtime]
+  url = "blessnet.tar.gz"
+  checksum = "ea157d7ed89e11fd28c4c6f77f1bb6619081579451891e7b4295db9193670694"
